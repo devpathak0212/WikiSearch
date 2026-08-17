@@ -11,7 +11,7 @@ app = FastAPI()
 # Enable CORS for React
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://searchwikipedia.vercel.app/"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
