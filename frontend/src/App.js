@@ -23,7 +23,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "https://wikisearch-backend.onrender.com/wiki",
+        "https://wikisearch-dybx.onrender.com/wiki",
         {
           method: "POST",
           headers: {
